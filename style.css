@@ -1,0 +1,63 @@
+#main {
+  font-family: monospace;
+  background-color: #f0e68c;
+  color: #3589e4;
+}
+
+#main::after {
+  background-image: url("https://ryanrapini.com/media/Wallpapers/pokemon/pikachu/1257392528583.jpg");
+  content: "";
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#title {
+  font-family: monospace;
+  text-align: center;
+  background-color: #d7cd6e;
+  padding: 15px 15px 15px 15px;
+}
+
+#image {
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 150px;
+  max-height: 150px;
+  border: 5px solid #d7cd6e;
+  
+}
+
+#img-caption {
+  text-align: center;
+  font-weight: bold;
+  font-size:20px;
+}
+#description{
+  background-color: #f0e68c;
+  margin: 10px 400px 0px 400px;
+}
+#line {
+  height: 5px;
+  border-width: 0;
+  color: black;
+  background-color: black;
+}
+
+#tribute-info {
+  padding: 10px 10px 0px 10px;
+  font-size: 15px;
+}
+
+
+#tribute-link {
+  font-size: 15px;
+  padding: 0px 10px 10px 10px;
+}
